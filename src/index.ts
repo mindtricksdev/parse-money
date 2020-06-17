@@ -4,8 +4,8 @@ const symbols: {
   [currency: string]: string[];
 } = {
   BRL: ["R$", "BRL"],
-  USD: ["$", "US$", "US dollars", "USD"],
   RON: ["lei", "LEI", "Lei", "RON"],
+  USD: ["$", "US$", "US dollars", "USD"],
   GBP: ["£", "GBP"],
   EUR: ["€", "Euro", "EUR"],
   RUB: ["руб", "RUB"],

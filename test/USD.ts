@@ -55,3 +55,7 @@ tap.same(parseMoney("$215,25"), {
   amount: 215.25,
   currency: "USD",
 });
+tap.same(parseMoney("$215,2"), {
+  amount: 215.2,
+  currency: "USD",
+});
