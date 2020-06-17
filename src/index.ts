@@ -43,6 +43,9 @@ const parseMoney = (text: string) => {
 
   //remove text
   slice = slice.replace(/[^\d|^\.|^,]/g, "");
+  //remove any trailing dots and commas
+  slice = slice.replace(/(,|\.)*$/, "");
+
   if (!slice.length) return null;
 
   let dotCount = slice.split(".").length - 1;

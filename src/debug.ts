@@ -1,6 +1,6 @@
 import parseMoney from ".";
 
 const money = parseMoney(
-  "valoare de 495,61 Lei. Pentru mai multe informaţii vă rugă"
+  "Test. Altceva, in valoare de 495,61 Lei. Ok, pentru mai multe informaţii..."
 );
 console.dir(money);
