@@ -1,8 +1,6 @@
 import tap from "tap";
 import parseMoney from "../src";
 
-tap.notOk(parseMoney(""));
-tap.notOk(parseMoney("text only"));
 tap.ok(parseMoney("$100"));
 
 tap.same(parseMoney("100"), {

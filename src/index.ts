@@ -3,13 +3,13 @@ import { Money, Currency } from "./types";
 const symbols: {
   [currency: string]: string[];
 } = {
-  USD: ["$", "US$", "US dollars"],
+  BRL: ["R$", "BRL"],
+  USD: ["$", "US$", "US dollars", "USD"],
   RON: ["lei", "LEI", "Lei", "RON"],
-  GBP: [],
-  EUR: [],
-  BRL: [],
-  RUB: [],
-  ILS: [],
+  GBP: ["£", "GBP"],
+  EUR: ["€", "Euro", "EUR"],
+  RUB: ["руб", "RUB"],
+  ILS: ["₪", "ILS"],
 };
 
 const parseMoney = (text: string) => {
