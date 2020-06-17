@@ -1,6 +1,6 @@
 {
   "name": "parse-money",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "Extract money from text (number and currency detection)",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
