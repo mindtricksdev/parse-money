@@ -1,7 +1,7 @@
 # parse-money
 Localized string to money (number + currency extraction)
 
-<img src="http://rawgit.com/mindtricksdev/parse-money/master/logo/banner.svg">
+<img src="https://raw.githubusercontent.com/mindtricksdev/parse-money/master/logo/banner.svg">
 Returns the amount as `Number` and the currency as `string` from a text that contains money.
 
 
