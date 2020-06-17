@@ -1,15 +1,17 @@
 {
   "name": "parse-money",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Extract money from text (number and currency detection)",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "tap",
     "prepare": "tsc"
   },
   "devDependencies": {
-    "typescript": "^2.7.2"
+    "@types/tap": "^14.10.0",
+    "tap": "^14.10.7",
+    "typescript": "^3.9.5"
   },
   "repository": {
     "type": "git",
