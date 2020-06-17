@@ -2,7 +2,8 @@
   "name": "parse-money",
   "version": "1.0.0",
   "description": "Extract money from text (number and currency detection)",
-  "main": "lib/index.js",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
