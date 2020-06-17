@@ -1,4 +1,5 @@
 # parse-money
+<img src="https://travis-ci.com/mindtricksdev/parse-money.svg?branch=master" alt="Travis CI">
 Extract money from text (number and currency detection)
 
 <img src="https://raw.githubusercontent.com/mindtricksdev/parse-money/master/logo/banner.svg" width="150px">
