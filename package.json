@@ -1,0 +1,25 @@
+{
+  "name": "parse-money",
+  "version": "1.0.0",
+  "description": "Extract money from text (number and currency detection)",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mindtricksdev/parse-money.git"
+  },
+  "keywords": [
+    "parse",
+    "money",
+    "currency",
+    "price"
+  ],
+  "author": "Daniel Iancu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mindtricksdev/parse-money/issues"
+  },
+  "homepage": "https://github.com/mindtricksdev/parse-money#readme"
+}
