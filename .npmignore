@@ -2,3 +2,5 @@ logo/
 src/
 tsconfig.json
 test/
+.vscode/
+.nyc_output/
