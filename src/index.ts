@@ -1,17 +1,9 @@
 import { Money } from "./types";
 
-/**
- * @param {String} str
- * @return {String}
- */
 function filterNumbers(str: string) {
   return str.replace(/[^\d]/g, "");
 }
 
-/**
- * @param {String} str
- * @return {String}
- */
 function filterNumbersDotsAndCommas(str: string) {
   return str.replace(/[^\d.,]/g, "").replace(/[.,]$/, "");
 }
