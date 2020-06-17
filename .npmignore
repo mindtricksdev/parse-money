@@ -4,3 +4,6 @@ tsconfig.json
 test/
 .vscode/
 .nyc_output/
+dist/*.js.map
+dist/debug*
+.travis.yml
