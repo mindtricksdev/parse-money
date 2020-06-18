@@ -1,5 +1,5 @@
 # parse-money
-<img src="https://travis-ci.com/mindtricksdev/parse-money.svg?branch=master" alt="Travis CI"> <a href="https://codecov.io/gh/mindtricksdev/parse-money"><img src="https://codecov.io/gh/mindtricksdev/parse-money/branch/master/graph/badge.svg" /></a>
+<img src="https://travis-ci.com/mindtricksdev/parse-money.svg?branch=master" alt="Travis CI"> <a href="https://codecov.io/gh/mindtricksdev/parse-money"><img src="https://codecov.io/gh/mindtricksdev/parse-money/branch/master/graph/badge.svg" /></a> <img src="https://img.badgesize.io/mindtricksdev/parse-money/master/src/index.ts?compression=gzip&label=size" />
 
 Extract money from text (number and currency detection)
 
