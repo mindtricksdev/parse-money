@@ -29,9 +29,7 @@ const parseMoney = (text: string) => {
 
   let index = 0;
   let currency: Currency | null = null;
-  if (currenciesFound.length === 0) {
-    //no currency found
-  } else if (currenciesFound.length >= 1) {
+  if (currenciesFound.length >= 1) {
     currency = currenciesFound[0].currency;
     index = currenciesFound[0].index;
   }
@@ -83,7 +81,6 @@ const parseMoney = (text: string) => {
     //215.212 is 215222
     //215.1 is 215.1
     const segments = slice.split(".");
-    const first = segments[0];
     const second = segments[1];
     if (second.length === 3) {
       //group separator
@@ -91,13 +88,14 @@ const parseMoney = (text: string) => {
     } else {
       //decimal separator
     }
-  } else if (commaCount === 1 && dotCount === 0) {
+  } else {
+    // (commaCount === 1 && dotCount === 0)
+
     //check groups
     //215,21 is 215.21
     //215,212 is 215222
     //215,1 is 215.1
     const segments = slice.split(",");
-    const first = segments[0];
     const second = segments[1];
     if (second.length === 3) {
       //group separator

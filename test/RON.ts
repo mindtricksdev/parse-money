@@ -46,12 +46,47 @@ tap.same(parseMoney("1,009,004.25 lei"), {
   currency: "RON",
 });
 
+tap.same(parseMoney("215,25 lei"), {
+  amount: 215.25,
+  currency: "RON",
+});
+
+tap.same(parseMoney("215,256 lei"), {
+  amount: 215256,
+  currency: "RON",
+});
+
+tap.same(parseMoney("215,2 lei"), {
+  amount: 215.2,
+  currency: "RON",
+});
+
+tap.same(parseMoney("215, lei"), {
+  amount: 215,
+  currency: "RON",
+});
+
 tap.same(parseMoney("109.25 lei"), {
   amount: 109.25,
   currency: "RON",
 });
-
-tap.same(parseMoney("215,25 lei"), {
-  amount: 215.25,
+tap.same(parseMoney("109.256 lei"), {
+  amount: 109256,
+  currency: "RON",
+});
+tap.same(parseMoney("109.256.256 lei"), {
+  amount: 109256256,
+  currency: "RON",
+});
+tap.same(parseMoney("109.256,25 lei"), {
+  amount: 109256.25,
+  currency: "RON",
+});
+tap.same(parseMoney("109.2 lei"), {
+  amount: 109.2,
+  currency: "RON",
+});
+tap.same(parseMoney("215. lei"), {
+  amount: 215,
   currency: "RON",
 });
