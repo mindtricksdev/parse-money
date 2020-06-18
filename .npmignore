@@ -7,3 +7,4 @@ test/
 dist/*.js.map
 dist/debug*
 .travis.yml
+coverage/

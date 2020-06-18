@@ -6,8 +6,10 @@
   "types": "dist/index.d.ts",
   "scripts": {
     "test": "tap",
-    "posttest": "tap --coverage-report=lcov && codecov",
-    "prepare": "tsc"
+    "posttest": "npm run coverage",
+    "prepare": "npm run compile",
+    "coverage": "tap --coverage-report=lcov && codecov",
+    "compile": "tsc"
   },
   "devDependencies": {
     "@types/tap": "^14.10.0",
