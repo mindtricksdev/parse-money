@@ -1,6 +1,6 @@
 {
   "name": "parse-money",
-  "version": "1.0.11",
+  "version": "1.0.12",
   "description": "Extract money from text (number and currency detection)",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -13,9 +13,9 @@
   },
   "devDependencies": {
     "@types/tap": "^14.10.0",
-    "codecov": "^3.7.0",
-    "tap": "^14.10.7",
-    "typescript": "^3.9.5"
+    "codecov": "^3.7.2",
+    "tap": "^14.10.8",
+    "typescript": "^4.0.2"
   },
   "repository": {
     "type": "git",
