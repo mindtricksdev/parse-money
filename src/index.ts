@@ -1,6 +1,6 @@
 import { Money, Currency } from "./types";
 
-const symbols: {
+export const symbols: {
   [currency: string]: string[];
 } = {
   BRL: ["R$", "BRL"],
@@ -10,6 +10,11 @@ const symbols: {
   EUR: ["€", "Euro", "EUR"],
   RUB: ["руб", "RUB"],
   ILS: ["₪", "ILS"],
+  INR: ["Rs.", "Rs", "INR", "RS", "RS."],
+  PHP: ["₱", "PHP", "PhP", "Php"],
+  JPY: ["¥", "JPY", "円"],
+  AUD: ["A$", "AU$", "AUD"],
+  CAD: ["CA$", "C$", "CAD"]
 };
 
 const parseMoney = (text: string) => {
